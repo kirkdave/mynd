@@ -1,0 +1,9 @@
+[env]
+TERM = "xterm-256color"
+
+[window]
+padding.x = 15
+padding.y = 15
+decorations = "Buttonless"
+opacity = 1
+blur = true

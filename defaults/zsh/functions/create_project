@@ -1,0 +1,9 @@
+client=$(gum input --prompt "What's the Client Name? " --placeholder "BJSS, KirkDave, ... ")
+project=$(gum input --prompt "What's the Project Name? ")
+
+if [[ -d ~/Projects/${client}/${project} ]]; then
+	echo -e "$(tput setaf yellow)Project ${project} has already been created for ${client}$(tput sgr0)"
+else
+	mkdir -p ~/Projects/${client}/${project}/{docs,repos,scratch}
+	echo -e "$(tput setaf green)Project directory created: ~/Projects/${client}/${project}$(tput sgr0)"
+fi

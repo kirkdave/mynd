@@ -1,0 +1,6 @@
+[general]
+import = [
+	"~/.config/alacritty/theme.toml",
+	"~/.config/alacritty/font.toml",
+	"~/.local/share/mynd/defaults/alacritty.toml"
+]

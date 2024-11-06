@@ -1,0 +1,16 @@
+# So much depends on packages installed via Homebrew, let's get it on our PATH early
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# Enable Powerlevel10k instant prompt
+# Initialisation code that requires user input (password prompts, [y/n], etc) must be above this
+# everything else can go below
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+	source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
+source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
+
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+source ~/.local/share/mynd/defaults/zsh/shell.sh
+source ~/.local/share/mynd/defaults/zsh/aliases.sh

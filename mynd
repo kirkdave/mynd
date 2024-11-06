@@ -1,0 +1,47 @@
+#!/usr/bin/env zsh
+
+set -e
+
+welcome_banner=(
+	'  __  ____   ___   _ ____  '
+	' |  \/  \ \ / / \ | |  _ \ '
+	' | |\/| |\ V /|  \| | | | |'
+	' | |  | | | | | |\  | |_| |'
+	' |_|  |_| |_| |_| \_|____/ '                           
+)
+
+welcome_banner_colors=(
+	'165'
+	'164'
+	'163'
+	'163'
+	'161'	
+)
+
+echo -e ""
+for ((i = 1; i <= $#welcome_banner; i++)); do
+	line_color=$welcome_banner_colors[i];
+	echo -e "$(tput setaf $line_color)$welcome_banner[i]$(tput sgr0)"
+done
+echo -e "$(tput dim)mynd: go, get, become$(tput sgr0)"
+echo -e ""
+
+echo -e "Configuring macOS will require sudo privileges at various points, so your password is required..."
+sudo -v &> /dev/null
+
+# keep the sudo session alive
+while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+
+echo -e "$(tput dim)sudo password cached!$(tput sgr0)"
+echo -e "$(tput bold)$(tput setaf 71)LETS GO!$(tput sgr0)"
+
+source install/terminal/pre/homebrew.sh
+
+echo -e ""
+echo -e "Installing terminal applications..."
+brew bundle --file ~/.local/share/mynd/install/terminal/brewfile.terminal
+for installer in ~/.local/share/mynd/install/terminal/*.sh; do source $installer; done
+
+echo -e "Installing desktop applications & fonts..."
+brew bundle --file ~/.local/share/mynd/install/desktop/brewfile.desktop
+for installer in ~/.local/share/mynd/install/desktop/*.sh; do source $installer; done

@@ -1,0 +1,171 @@
+{
+  "entries": {
+    "cask": {
+      "1password": {
+        "version": "8.10.50",
+        "options": {
+          "full_name": "1password"
+        }
+      },
+      "alacritty": {
+        "version": "0.14.0",
+        "options": {
+          "args": {
+            "no_quarantine": true
+          },
+          "full_name": "alacritty"
+        }
+      },
+      "db-browser-for-sqlite": {
+        "version": "3.13.1",
+        "options": {
+          "full_name": "db-browser-for-sqlite"
+        }
+      },
+      "drawio": {
+        "version": "24.7.17",
+        "options": {
+          "full_name": "drawio"
+        }
+      },
+      "google-chrome": {
+        "version": "130.0.6723.117",
+        "options": {
+          "full_name": "google-chrome"
+        }
+      },
+      "insomnia": {
+        "version": "10.1.1",
+        "options": {
+          "full_name": "insomnia"
+        }
+      },
+      "slack": {
+        "version": "4.41.97",
+        "options": {
+          "full_name": "slack"
+        }
+      },
+      "spotify": {
+        "version": "1.2.49.439",
+        "options": {
+          "full_name": "spotify"
+        }
+      },
+      "utm": {
+        "version": "4.5.4",
+        "options": {
+          "full_name": "utm"
+        }
+      },
+      "visual-studio-code": {
+        "version": "1.95.1",
+        "options": {
+          "full_name": "visual-studio-code"
+        }
+      },
+      "font-barlow": {
+        "version": "1.422",
+        "options": {
+          "full_name": "font-barlow"
+        }
+      },
+      "font-barlow-condensed": {
+        "version": "latest",
+        "options": {
+          "full_name": "font-barlow-condensed"
+        }
+      },
+      "font-barlow-semi-condensed": {
+        "version": "latest",
+        "options": {
+          "full_name": "font-barlow-semi-condensed"
+        }
+      },
+      "font-cascadia-code-nf": {
+        "version": "2404.23",
+        "options": {
+          "full_name": "font-cascadia-code-nf"
+        }
+      },
+      "font-fira-code-nerd-font": {
+        "version": "3.2.1",
+        "options": {
+          "full_name": "font-fira-code-nerd-font"
+        }
+      },
+      "font-inter": {
+        "version": "4.0",
+        "options": {
+          "full_name": "font-inter"
+        }
+      },
+      "font-inter-tight": {
+        "version": "latest",
+        "options": {
+          "full_name": "font-inter-tight"
+        }
+      },
+      "font-montserrat": {
+        "version": "latest",
+        "options": {
+          "full_name": "font-montserrat"
+        }
+      },
+      "font-poppins": {
+        "version": "4.003",
+        "options": {
+          "full_name": "font-poppins"
+        }
+      },
+      "font-roboto": {
+        "version": "latest",
+        "options": {
+          "full_name": "font-roboto"
+        }
+      },
+      "font-roboto-condensed": {
+        "version": "latest",
+        "options": {
+          "full_name": "font-roboto-condensed"
+        }
+      },
+      "font-roboto-mono-nerd-font": {
+        "version": "3.2.1",
+        "options": {
+          "full_name": "font-roboto-mono-nerd-font"
+        }
+      },
+      "font-roboto-serif": {
+        "version": "latest",
+        "options": {
+          "full_name": "font-roboto-serif"
+        }
+      },
+      "font-roboto-slab": {
+        "version": "latest",
+        "options": {
+          "full_name": "font-roboto-slab"
+        }
+      },
+      "aerospace": {
+        "version": "0.15.2-Beta",
+        "options": {
+          "full_name": "nikitabobko/tap/aerospace"
+        }
+      }
+    }
+  },
+  "system": {
+    "macos": {
+      "sequoia": {
+        "HOMEBREW_VERSION": "4.4.4",
+        "HOMEBREW_PREFIX": "/opt/homebrew",
+        "Homebrew/homebrew-core": "api",
+        "CLT": "16.1.0.0.1.1729049160",
+        "Xcode": "16.0",
+        "macOS": "15.0.1"
+      }
+    }
+  }
+}
