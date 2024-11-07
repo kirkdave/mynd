@@ -153,6 +153,12 @@
         "options": {
           "full_name": "nikitabobko/tap/aerospace"
         }
+      },
+      "desktoppr": {
+        "version": "0.5,218",
+        "options": {
+          "full_name": "desktoppr"
+        }
       }
     }
   },
@@ -164,7 +170,7 @@
         "Homebrew/homebrew-core": "api",
         "CLT": "16.1.0.0.1.1729049160",
         "Xcode": "16.0",
-        "macOS": "15.0.1"
+        "macOS": "15.1"
       }
     }
   }

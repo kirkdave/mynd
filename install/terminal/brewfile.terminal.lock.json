@@ -647,6 +647,45 @@
             }
           }
         }
+      },
+      "mise": {
+        "version": "2024.11.4",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_sequoia": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/mise/blobs/sha256:1eded82295189f02ffff8e5c80785dbe23255f37f4986cfa731a2b095b06957c",
+              "sha256": "1eded82295189f02ffff8e5c80785dbe23255f37f4986cfa731a2b095b06957c"
+            },
+            "arm64_sonoma": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/mise/blobs/sha256:bd27a88f037c44ea469321028da60c55ffd3e68f9965fb2783893c1ec654a257",
+              "sha256": "bd27a88f037c44ea469321028da60c55ffd3e68f9965fb2783893c1ec654a257"
+            },
+            "arm64_ventura": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/mise/blobs/sha256:ed3f6364633f1fd39dde2b62a002f8f0386c7a1d2894f1baa9db72d107362050",
+              "sha256": "ed3f6364633f1fd39dde2b62a002f8f0386c7a1d2894f1baa9db72d107362050"
+            },
+            "sonoma": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/mise/blobs/sha256:793158d3946005a6865e47380479d0bf01f325bcdcd5c7f5008189955d2123c7",
+              "sha256": "793158d3946005a6865e47380479d0bf01f325bcdcd5c7f5008189955d2123c7"
+            },
+            "ventura": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/mise/blobs/sha256:b023093ade9b31c3e52d85d24cc28609beaebfedd7c54e0cebe333eb59198c08",
+              "sha256": "b023093ade9b31c3e52d85d24cc28609beaebfedd7c54e0cebe333eb59198c08"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/mise/blobs/sha256:bc3cd81f6d5f7f38bb5ea00561040431d24bbe78c718b39457eda6a67b5b8209",
+              "sha256": "bc3cd81f6d5f7f38bb5ea00561040431d24bbe78c718b39457eda6a67b5b8209"
+            }
+          }
+        }
       }
     }
   },
@@ -658,7 +697,7 @@
         "Homebrew/homebrew-core": "api",
         "CLT": "16.1.0.0.1.1729049160",
         "Xcode": "16.0",
-        "macOS": "15.0.1"
+        "macOS": "15.1"
       }
     }
   }

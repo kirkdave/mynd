@@ -45,3 +45,6 @@ for installer in ~/.local/share/mynd/install/terminal/*.sh; do source $installer
 echo -e "Installing desktop applications & fonts..."
 brew bundle --file ~/.local/share/mynd/install/desktop/brewfile.desktop
 for installer in ~/.local/share/mynd/install/desktop/*.sh; do source $installer; done
+
+echo -e "Setting up macOS preferences and theming..."
+source ~/.local/share/mynd/theme/macos.sh
