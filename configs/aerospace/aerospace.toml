@@ -74,4 +74,14 @@ alt-s = ['join-with down', 'mode main']
 alt-w = ['join-with up', 'mode main']
 alt-d = ['join-with right', 'mode main']
 
+[[on-window-detected]]
+if.app-id = 'com.github.wez.wezterm'
+run = "move-node-to-workspace T"
 
+[[on-window-detected]]
+if.app-id = "org.alacritty"
+run = "move-node-to-workspace T"
+
+[[on-window-detected]]
+if.app-id = "com.google.Chrome"
+run = "move-node-to-workspace B"
