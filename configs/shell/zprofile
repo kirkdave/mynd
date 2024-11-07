@@ -1,0 +1,3 @@
+# we add the mise shims in .zprofile so they are available to non-interactive sessions,
+# e.g. IDEs
+export PATH="$HOME/.local/share/mise/shims:$PATH"

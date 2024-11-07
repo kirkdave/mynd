@@ -5,3 +5,9 @@ if [[ -f ~/.zshrc ]]; then
 fi
 
 cp ~/.local/share/mynd/configs/shell/zshrc ~/.zshrc
+
+if [[ -f ~/.zprofile ]]; then
+	cp ~/.zprofile ~/.zprofile.bak
+fi
+
+cp ~/.local/share/mynd/configs/shell/zprofile ~/.zprofile
