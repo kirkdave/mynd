@@ -10,7 +10,7 @@ if [[ -f ~/.zprofile ]]; then
 fi
 cp ~/.local/share/mynd/configs/shell/zprofile ~/.zprofile
 
-if [[ -f ~/.p10k.sh ]]; then
-	cp ~/.p10k.sh ~/.p10k.sh.bak
+if [[ -f ~/.p10k.zsh ]]; then
+	cp ~/.p10k.zsh ~/.p10k.zsh.bak
 fi
-cp configs/shell/p10k.sh ~/.p10k.sh
+cp configs/shell/p10k.zsh ~/.p10k.zsh
