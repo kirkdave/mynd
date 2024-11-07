@@ -55,7 +55,7 @@ alt-shift-4 = 'move-node-to-workspace 4'
 alt-shift-5 = 'move-node-to-workspace 5'
 alt-shift-6 = 'move-node-to-workspace 6'
 alt-shift-b = 'move-node-to-workspace B' # for browser(s)
-alt-shfit-o = 'move-node-to-workspace O' # for office
+alt-shift-o = 'move-node-to-workspace O'
 alt-shift-t = 'move-node-to-workspace T' # for terminal
 
 alt-shift-tab = 'workspace-back-and-forth'
