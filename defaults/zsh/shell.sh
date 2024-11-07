@@ -11,3 +11,6 @@ bindkey '^[[B' history-search-forward
 
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# this stops https://github.com/romkatv/powerlevel10k/issues/1554
+unset ZSH_AUTOSUGGEST_USE_ASYNC
