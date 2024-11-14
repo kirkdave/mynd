@@ -2,4 +2,4 @@
 normal = { family = "FiraCode Nerd Font Propo", style = "Retina" }
 bold = { family = "FiraCode Nerd Font Propo", style = "Bold" }
 italic = { family = "FiraCode Nerd Font Propo", style = "Italic" }
-size = 16
+size = 18
