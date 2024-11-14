@@ -1,4 +1,4 @@
-alias ls='eza -lh --group-directories-first --icons'
+alias ls='eza -lh --group-directories-first --icons=always'
 alias ll='ls'
 alias la='ls -a'
 alias lt='eza --tree --level=2 --long --icons --git'

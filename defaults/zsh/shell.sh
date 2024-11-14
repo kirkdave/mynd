@@ -14,3 +14,4 @@ source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 
 # this stops https://github.com/romkatv/powerlevel10k/issues/1554
 unset ZSH_AUTOSUGGEST_USE_ASYNC
+
