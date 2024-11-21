@@ -13,6 +13,7 @@ return {
         config.view.adaptive_size = true
         config.view.side = "right"
         config.view.width = 40
+        config.view.relativenumber = true
 
         config.renderer = {}
         config.renderer.group_empty = true
@@ -20,6 +21,10 @@ return {
         config.renderer.highlight_diagnostics  = true
         config.renderer.highlight_bookmarks    = "all"
         config.renderer.highlight_clipboard    = "all"
+
+        config.renderer.indent_markers = {
+            enable = true,
+        }
 
         config.renderer.icons = {}
         config.renderer.icons.webdev_colors = false
@@ -42,12 +47,36 @@ return {
                 deleted   = "",
                 -- \ue668
                 ignored   = ""
-            }
+            },
+            folder = {
+                arrow_closed = "",
+                arrow_open = "",
+                default = "",
+                open = "",
+                empty = "",
+                empty_open = ""
+            },
+
         }
 
         config.git = {}
         config.git.enable = true
-        
+        config.git.ignore = false
+
+        config.actions = {}
+        config.actions.open_file = {
+            window_picker = {
+                enable = false,
+            },
+        }
+
+        config.filters = {
+            custom = {
+                ".DS_Store",
+            },
+        }
+
+
         nvimtree.setup(config)
 
         local keymap = vim.keymap

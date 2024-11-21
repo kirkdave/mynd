@@ -11,4 +11,12 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup("kirkdave.plugins")
+require("lazy").setup({ { import = "kirkdave.plugins" }, { import = "kirkdave.plugins.lsp" } }, {
+    checker = {
+        enabled = true,
+        notify = false,
+    },
+    change_detection = {
+        notify = false,
+    },
+})
