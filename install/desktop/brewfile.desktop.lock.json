@@ -29,7 +29,7 @@
         }
       },
       "google-chrome": {
-        "version": "131.0.6778.70",
+        "version": "131.0.6778.86",
         "options": {
           "full_name": "google-chrome"
         }
@@ -41,13 +41,13 @@
         }
       },
       "slack": {
-        "version": "4.41.97",
+        "version": "4.41.98",
         "options": {
           "full_name": "slack"
         }
       },
       "spotify": {
-        "version": "1.2.49.439",
+        "version": "1.2.50.335",
         "options": {
           "full_name": "spotify"
         }
@@ -59,7 +59,7 @@
         }
       },
       "visual-studio-code": {
-        "version": "1.95.2",
+        "version": "1.95.3",
         "options": {
           "full_name": "visual-studio-code"
         }
@@ -89,13 +89,13 @@
         }
       },
       "font-fira-code-nerd-font": {
-        "version": "3.2.1",
+        "version": "3.3.0",
         "options": {
           "full_name": "font-fira-code-nerd-font"
         }
       },
       "font-inter": {
-        "version": "4.0",
+        "version": "4.1",
         "options": {
           "full_name": "font-inter"
         }
@@ -131,7 +131,7 @@
         }
       },
       "font-roboto-mono-nerd-font": {
-        "version": "3.2.1",
+        "version": "3.3.0",
         "options": {
           "full_name": "font-roboto-mono-nerd-font"
         }
@@ -160,12 +160,16 @@
           "full_name": "desktoppr"
         }
       }
+    },
+    "vscode": {
+      "arcticicestudio.nord-visual-studio-code": null,
+      "shopify.ruby-lsp": null
     }
   },
   "system": {
     "macos": {
       "sequoia": {
-        "HOMEBREW_VERSION": "4.4.5",
+        "HOMEBREW_VERSION": "4.4.6",
         "HOMEBREW_PREFIX": "/opt/homebrew",
         "Homebrew/homebrew-core": "api",
         "CLT": "16.1.0.0.1.1729049160",
