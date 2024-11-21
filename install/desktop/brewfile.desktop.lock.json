@@ -163,7 +163,11 @@
     },
     "vscode": {
       "arcticicestudio.nord-visual-studio-code": null,
-      "shopify.ruby-lsp": null
+      "shopify.ruby-lsp": null,
+      "esbenp.prettier-vscode": null,
+      "aki77.html-erb": null,
+      "aliariff.vscode-erb-beautify": null,
+      "craigmaslowski.erb": null
     }
   },
   "system": {
